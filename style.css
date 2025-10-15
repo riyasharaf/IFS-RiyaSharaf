@@ -1,0 +1,474 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* headerrr section */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 70px;
+  background: #f9fbfc;
+}
+
+header .logo {
+  font-size: 20px;
+  color: #4682b4;
+}
+
+nav a {
+  color: black;
+  margin: 0px 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #4682b4;
+}
+
+.bgclr {
+  background-color: #4682b4;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+/* section2 background section*/
+.bg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #e8f6ff;
+  padding: 60px 100px;
+  flex-wrap: wrap;
+  height: 500px;
+}
+
+.def {
+  max-width: 500px;
+}
+
+.def h1 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.def h1 span {
+  color: #4682b4;
+}
+
+.def p {
+  margin: 15px 0 25px;
+  font-size: 15px;
+  line-height: 22px;
+  color: #555;
+}
+
+.bgbuttons {
+  gap: 20px;
+  display: flex;
+}
+
+.bgbuttons a {
+  text-decoration: none;
+}
+
+.bgbuttons #one1 {
+  background: #4682b4;
+  color: #fff;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bgbuttons #one {
+  background: #fff;
+  color: #4682b4;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border-color: #4682b4;
+  text-decoration: none;
+}
+
+.bg img {
+  width: 350px;
+  max-width: 100%;
+}
+
+/* section 3  Services section*/
+.three {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background: #fff;
+  padding: 40px 60px;
+}
+
+.s {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 12px;
+  padding: 15px 20px;
+  width: 250px;
+  gap: 20px;
+}
+.icon {
+  padding: 15px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.s.web .icon {
+  background-color: #eae6fd;
+}
+.s.seo .icon {
+  background-color: #eeffe4;
+}
+.s.arvr .icon {
+  background-color: #e5edff;
+}
+.services.mobile .icon {
+  background-color: #ffe9e5;
+}
+
+/* section4  info section*/
+.info-section {
+  padding: 80px 0px;
+  text-align: center;
+}
+
+.top-text h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #222;
+}
+
+.top-text p {
+  color: #888;
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* section5 about section */
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 100px auto;
+  gap: 50px;
+}
+
+.left {
+  width: 55%;
+}
+
+.left h2 {
+  line-height: 35px;
+  margin-bottom: 25px;
+}
+
+.bluea {
+  color: #0099ff;
+}
+
+.descr {
+  color: grey;
+  font-size: 15px;
+  line-height: 1.8;
+  max-width: 550px;
+}
+
+.icon-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.icon1,
+.icon2,
+.icon3 {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.icon1 {
+  background: #00c4cc;
+}
+.icon2 {
+  background: #4682b4;
+}
+.icon3 {
+  background: #8a00c4;
+}
+
+.icon-title img {
+  width: 28px;
+  height: 28px;
+}
+
+.icon-text h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.icon-text p {
+  font-size: 15px;
+  color: grey;
+  text-align: left;
+}
+
+.right img {
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* 6 section  box section*/
+
+.row1 {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 80px;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  padding: 25px;
+  border-radius: 10px;
+  background: #f0f8ff;
+}
+
+.box.box2 {
+  background: #4682b4;
+  color: white;
+}
+
+.box.box1 h4 {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.box.box2 h4 {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.box p {
+  font-size: 15px;
+  margin: 10px 0 20px;
+  padding: 30px;
+  line-height: 20px;
+  color: grey;
+}
+
+#three {
+  color: white;
+}
+
+#two {
+  background: #4682b4;
+  color: #fff;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#two2 {
+  background: #fff;
+  color: #4682b4;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* section6 company section */
+.company {
+  text-align: center;
+  padding: 40px 0;
+  background: #fff;
+}
+
+.company h4 {
+  margin-bottom: 25px;
+  color: #555;
+  font-size: 25px;
+}
+
+.logoos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 200px;
+}
+
+.logoos img {
+  width: 150px;
+}
+
+/* section7 Subscribe form section */
+
+.subscribe {
+  background-color: #e9f6ff;
+  padding: 100px 0;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+.subscribe h2 {
+  text-align: center;
+  line-height: 45px;
+  font-size: 30px;
+}
+
+.subscribe-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.subscribe-form input {
+  width: 400px;
+  height: 27px;
+  padding: 15px 25px;
+  font-size: 14px;
+  border-radius: 10px;
+  border: none;
+  margin-right: 10px;
+}
+
+.subscribe-btn {
+  width: 180px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* footer footer section  */
+.footer {
+  border-top: 1px solid #e5e5e5;
+  padding: 20px 80px 20px;
+}
+
+.footerinfo {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.flogo {
+  color: #004aad;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.footer2,
+h4 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.footer1,
+.footer3 p {
+  color: #555;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.footer2 ul {
+  list-style: none;
+}
+
+.footer2 ul li {
+  margin-bottom: 8px;
+}
+
+.footer2 ul li a {
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.phone {
+  margin-top: 10px;
+}
+
+.footer-handle {
+  margin-top: 15px;
+  font-weight: 500;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sicons {
+  display: flex;
+  gap: 15px;
+  margin-top: 80px;
+}
+
+.sicons a {
+  display: flex;
+  width: 38px;
+  height: 38px;
+  background-color: #fff;
+  color: black;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #eee;
+  margin-top: 40px;
+  padding-top: 15px;
+  font-size: 13px;
+  color: #777;
+}
